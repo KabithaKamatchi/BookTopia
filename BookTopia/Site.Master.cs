@@ -13,5 +13,16 @@ namespace BookTopia
         {
 
         }
+
+        protected void btnAddBook_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect($"~/BookTopia/AddBooks.aspx");
+        }
+
+        protected void btnViewBooks_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/BookTopia/ViewBooks.aspx");
+        }
     }
 }

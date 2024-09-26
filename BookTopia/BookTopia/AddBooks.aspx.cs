@@ -95,7 +95,12 @@ namespace BookTopia.BookTopia
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("https://localhost:44331/");
+            lblErrorMessage.Text = "Cancelled Successfully.";
+        }
+
+        protected void btnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://localhost:44370/");
         }
 
         public void CreateBookTable()

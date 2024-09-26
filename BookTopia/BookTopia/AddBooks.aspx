@@ -4,7 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>BOOK TOPIA</title>
+    <link rel="stylesheet" type="text/css" href="../Assets/Css/Themes/themes.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/Css/Core/style.css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -37,9 +39,10 @@
              <asp:Label ID="lblErrorMessage" runat="server" ForeColor="Red"></asp:Label><br />
         </div>
 
-        <div>
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-            <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
+        <div class="button-Onclick">
+            <asp:Button class="Submit" ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+            <asp:Button class="Cancel" ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
+            <asp:Button class="Back" ID="btnBack" runat="server" Text="Back" OnClick="btnBack_Click" />
         </div>
 
         <div>

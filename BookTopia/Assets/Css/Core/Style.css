@@ -1,0 +1,114 @@
+﻿body {
+    position: relative;
+    background: url('../Images/AddBook.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#form1 {
+    padding-top: 5%;
+}
+form {
+    background-color: var(--form-background-color);
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    width: 30%;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5%;
+    color: var(--label-color);
+    font-size: 1rem;
+}
+
+input[type="text"] {
+    width: calc(100% - 10%);
+    padding: 2.5%;
+    margin-bottom: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--input-text-color);
+}
+
+input[type="text"]:focus {
+    border-color: var(--input-focus-border-color);
+    outline: none;
+}
+
+button {
+    padding: 2.5% 5%;
+    margin-right: 2%;
+    border: none;
+    color: var(--button-text-color);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button-Onclick .Submit {
+    background-color: var( --submit-button-color);
+    color: var(--button-text-color);
+    border: none;
+    margin: 2% 0;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 5% 10%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.button-Onclick .Submit:hover {
+    background-color: var(--button-hover-color);
+}
+
+
+.button-Onclick .Cancel {
+    background-color: var(--link-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 25px;
+    padding: 5% 10%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+ .button-Onclick .Cancel:hover {
+      background-color: var(--button-hover-color);
+ }
+
+.button-Onclick .Back {
+    background-color: var(--back-button-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 25px;
+    padding: 5% 10%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.button-Onclick .Back:hover {
+    background-color: var(--button-hover-color);
+}
+
+.error-message {
+    color: var(--error-message-color);
+    margin-bottom: 5%;
+    display: none;
+}
+
+.success-message {
+    color: var(--success-message-color);
+    margin-top: 5%;
+    display: none;
+}

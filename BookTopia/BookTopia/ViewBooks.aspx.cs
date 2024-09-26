@@ -59,7 +59,7 @@ namespace BookTopia.BookTopia
 
         protected void btnBack_Click(object sender, EventArgs e)
         {
-            Response.Redirect($"~/BookTopia/AddBook.aspx");
+            Response.Redirect($"~/BookTopia/AddBooks.aspx");
         }
 
     }

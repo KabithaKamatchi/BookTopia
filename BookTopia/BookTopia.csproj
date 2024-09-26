@@ -99,6 +99,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Css\Core\Style.css" />
+    <Content Include="Assets\Css\Images\AddBook.png" />
+    <Content Include="Assets\Css\Themes\Themes.css" />
     <Content Include="BookTopia\AddBooks.aspx" />
     <Content Include="BookTopia\ViewBooks.aspx" />
     <Content Include="Content\Application.css" />
@@ -175,9 +178,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\Css\Core\" />
-    <Folder Include="Assets\Css\Images\" />
-    <Folder Include="Assets\Css\Themes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
