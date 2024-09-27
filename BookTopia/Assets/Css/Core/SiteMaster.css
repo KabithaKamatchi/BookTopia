@@ -16,33 +16,6 @@ h3 {
     color: var(--text-color);
 }
 
-.button-Onclick {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display:flex;
-    gap:10px;
-}
-
-.button-Onclick .Submit {
-    background-color: var(--submit-button-color);
-    color: var(--button-text-color);
-    border: none;
-    margin: 0 2%;
-    justify-content: space-between;
-    border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-    text-align: center;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.button-Onclick .Submit:hover {
-    background-color: var(--button-hover-color);
-}
-
 .btn {
     display: inline-block;
     padding: 10px 20px;
