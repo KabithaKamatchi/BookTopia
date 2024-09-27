@@ -34,8 +34,6 @@ namespace BookTopia.BookTopia
                 gvBooks.DataBind();
             }
         }
-
-
         protected void gvBooks_RowEditing(object sender, GridViewEditEventArgs e)
         {
             int bookId = Convert.ToInt32(gvBooks.DataKeys[e.NewEditIndex].Value);
@@ -91,8 +89,12 @@ namespace BookTopia.BookTopia
 
         protected void btnBack_Click(object sender, EventArgs e)
         {
-            Response.Redirect($"~/BookTopia/AddBook.aspx");
+            Response.Redirect($"~/BookTopia/AddBooks.aspx");
         }
 
+        protected void btnHome_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://localhost:44370/");
+        }
     }
 }

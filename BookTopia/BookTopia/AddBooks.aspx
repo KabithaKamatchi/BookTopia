@@ -42,6 +42,7 @@
         <div class="button-Onclick">
             <asp:Button class="Submit" ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
             <asp:Button class="Cancel" ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
+
         </div>
 
         <div class="back-button">
@@ -53,6 +54,9 @@
 
         </div>
 
+        <div class="back-button">
+             <asp:Button ID="btnBack" runat="server" Text="&#8249; HomePage" OnClick="btnBack_Click" />
+        <div>
         <div>
             <asp:Label ID="lblSuccessMessage" runat="server" ForeColor="Green"></asp:Label><br />
         </div>
