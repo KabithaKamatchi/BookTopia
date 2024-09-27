@@ -26,6 +26,8 @@
             <div class="Class-view">              
                 <asp:Button ID="btnViewBooks" runat="server" Text="View Books" CssClass="btn btn-info" OnClick="btnViewBooks_Click" />
             </div>         
+=======
+        </asp:ScriptManager>                            
     </form>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>

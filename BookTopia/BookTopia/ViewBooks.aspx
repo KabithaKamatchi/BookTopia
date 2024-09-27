@@ -24,6 +24,12 @@
              <asp:TemplateField HeaderText="Delete">
                  <ItemTemplate >
                      <asp:LinkButton ID="btnDelete" runat="server" CommandName="Delete"  
+=======
+                 <asp:CommandField ShowEditButton="True" />                 
+             <asp:TemplateField>
+                 <ItemTemplate>
+                     <asp:LinkButton ID="btnDelete" runat="server" CommandName="Delete" 
+ Main
                          CommandArgument='<%# Eval("BookId") %>' Text="Delete" 
                          OnClientClick="return confirm('Are you sure you want to delete this record?');" />
                  </ItemTemplate>
@@ -33,9 +39,12 @@
       <div>
           <asp:Button ID="btnBack" runat="server" Text="Back" OnClick="btnBack_Click" CssClass="button" /> 
      </div>
+
     <div class="back-button">
        <asp:Button ID="Button1" runat="server" Text="&#8249; HomePage" OnClick="btnHome_Click" />
   </div>
+=======
+
  </div>
     </form>
 </body>

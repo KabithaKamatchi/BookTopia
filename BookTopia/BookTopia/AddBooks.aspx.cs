@@ -101,6 +101,9 @@ namespace BookTopia.BookTopia
         protected void btnBack_Click(object sender, EventArgs e)
         {
             Response.Redirect("https://localhost:44370/");
+
+            Response.Redirect("https://localhost:44331/");
+ 
         }
 
         public void CreateBookTable()

@@ -141,6 +141,7 @@ namespace BookTopia.BookTopia
         protected global::System.Web.UI.WebControls.Button btnCancel;
 
         /// <summary>
+ CRUD_Operations
         /// btnBack control.
         /// </summary>
         /// <remarks>
@@ -150,6 +151,8 @@ namespace BookTopia.BookTopia
         protected global::System.Web.UI.WebControls.Button btnBack;
 
         /// <summary>
+=======
+Main
         /// lblSuccessMessage control.
         /// </summary>
         /// <remarks>
