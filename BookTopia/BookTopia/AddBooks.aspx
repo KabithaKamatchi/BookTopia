@@ -35,28 +35,20 @@
             <asp:TextBox ID="txtDateOfPublication" runat="server"></asp:TextBox><br /><br />
         </div>
 
-        <div>
-             <asp:Label ID="lblErrorMessage" runat="server" ForeColor="Red"></asp:Label><br />
-        </div>
-
         <div class="button-Onclick">
             <asp:Button class="Submit" ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
             <asp:Button class="Cancel" ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
 
         </div>
 
-        <div class="back-button">
-             <asp:Button ID="btnBack" runat="server" Text="&#8249; HomePage" OnClick="btnBack_Click" />
-        <div>
-        <div>
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-            <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
-
+          <div>
+             <asp:Label ID="lblErrorMessage" runat="server" ForeColor="Red"></asp:Label><br />
         </div>
 
         <div class="back-button">
              <asp:Button ID="btnBack" runat="server" Text="&#8249; HomePage" OnClick="btnBack_Click" />
         <div>
+ 
         <div>
             <asp:Label ID="lblSuccessMessage" runat="server" ForeColor="Green"></asp:Label><br />
         </div>
