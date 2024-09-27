@@ -1,0 +1,131 @@
+﻿body {
+    position: relative;
+    background: url('../Images/AddBook.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 90%;
+    padding: 20px;
+    background-color: var(--form-background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: var(--label-color);
+}
+
+form {
+    background-color: var(--form-background-color);
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: darkorange;
+    color: var(--button-text-color);
+}
+
+.button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .button:hover {
+        background-color: var(--button-hover-color);
+    }
+
+asp\:LinkButton {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+    asp\:LinkButton:hover {
+        text-decoration: underline;
+    }
+
+.error-message {
+    color: var(--error-message-color);
+}
+
+.success-message {
+    color: var(--success-message-color);
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    background-color: white;
+    color: var(--input-text-color);
+    border: 1px solid var(--input-focus-border-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: var(--input-focus-border-color);
+}
+
+.submit-button {
+    background-color: var(--submit-button-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.back-button {
+    background-color: var(--back-button-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.back-button-style {
+    background-color: var(--form-background-color);
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button-style:hover {
+    background-color: var(--button-hover-color);
+}

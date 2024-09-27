@@ -4,7 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>ViewBooks</title>
+     <link rel="stylesheet" type="text/css" href="../Assets/Css/Themes/themes.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/Css/Core/ViewBooks.css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -18,10 +20,10 @@
                  <asp:BoundField DataField="Author" HeaderText="Author" />
                  <asp:BoundField DataField="ISBN" HeaderText="ISBN" />
                  <asp:BoundField DataField="DateOfPublication" HeaderText="Date of Publication" />                  
-                 <asp:CommandField ShowEditButton="True" />                 
-             <asp:TemplateField>
-                 <ItemTemplate>
-                     <asp:LinkButton ID="btnDelete" runat="server" CommandName="Delete" 
+                 <asp:CommandField ShowEditButton="True" HeaderText="Edit" />                 
+             <asp:TemplateField HeaderText="Delete">
+                 <ItemTemplate >
+                     <asp:LinkButton ID="btnDelete" runat="server" CommandName="Delete"  
                          CommandArgument='<%# Eval("BookId") %>' Text="Delete" 
                          OnClientClick="return confirm('Are you sure you want to delete this record?');" />
                  </ItemTemplate>
@@ -31,6 +33,9 @@
       <div>
           <asp:Button ID="btnBack" runat="server" Text="Back" OnClick="btnBack_Click" CssClass="button" /> 
      </div>
+    <div class="back-button">
+       <asp:Button ID="Button1" runat="server" Text="&#8249; HomePage" OnClick="btnHome_Click" />
+  </div>
  </div>
     </form>
 </body>

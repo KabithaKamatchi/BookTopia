@@ -62,5 +62,10 @@ namespace BookTopia.BookTopia
             Response.Redirect($"~/BookTopia/AddBooks.aspx");
         }
 
+        protected void btnHome_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://localhost:44370/");
+        }
+
     }
 }

@@ -7,6 +7,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BookTopia</title>
+     <link rel="stylesheet" type="text/css" href="../Assets/Css/Themes/themes.css">
+     <link rel="stylesheet" type="text/css" href="../Assets/Css/Core/SiteMaster.css">
 </head>
 <body>
     <form runat="server">
@@ -17,17 +19,13 @@
                 <asp:ScriptReference Name="WebFormsBundle" />             
             </Scripts>
         </asp:ScriptManager>  
-        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
-            <div class="cards-container">
-                <div class="card">
-                    <h3>Add Book</h3>
-                    <asp:Button ID="btnAddBook" runat="server" Text="Add Book" CssClass="btn btn-success" OnClick="btnAddBook_Click" />
-                </div>
-                <div class="card">
-                    <h3>View Books</h3>
-                    <asp:Button ID="btnViewBooks" runat="server" Text="View Books" CssClass="btn btn-info" OnClick="btnViewBooks_Click" />
-                </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>      
+            <div class="Class-add">
+                <asp:Button ID="btnAddBook" runat="server" Text="Add Book" CssClass="btn btn-success" OnClick="btnAddBook_Click" />
             </div>
+            <div class="Class-view">              
+                <asp:Button ID="btnViewBooks" runat="server" Text="View Books" CssClass="btn btn-info" OnClick="btnViewBooks_Click" />
+            </div>         
     </form>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>

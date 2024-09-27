@@ -99,8 +99,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Css\Core\SiteMaster.css" />
     <Content Include="Assets\Css\Core\Style.css" />
+    <Content Include="Assets\Css\Core\ViewBooks.css" />
     <Content Include="Assets\Css\Images\AddBook.png" />
+    <Content Include="Assets\Css\Images\SiteMaster-Photoroom.jpg" />
     <Content Include="Assets\Css\Themes\Themes.css" />
     <Content Include="BookTopia\AddBooks.aspx" />
     <Content Include="BookTopia\ViewBooks.aspx" />
