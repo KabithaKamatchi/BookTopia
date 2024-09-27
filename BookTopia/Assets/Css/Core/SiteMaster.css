@@ -1,0 +1,73 @@
+﻿body {
+    position: relative;
+    background: url('../Images/SiteMaster-Photoroom.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.button-Onclick {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display:flex;
+    gap:10px;
+}
+
+.button-Onclick .Submit {
+    background-color: var(--submit-button-color);
+    color: var(--button-text-color);
+    border: none;
+    margin: 0 2%;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button-Onclick .Submit:hover {
+    background-color: var(--button-hover-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-success {
+    background-color: var(--submit-button-color);
+    color: var(--button-text-color);
+}
+
+    .btn-success:hover {
+        background-color: var(--button-hover-color);
+    }
+
+.btn-info {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+}
+
+.btn-info:hover {
+    background-color: var(--button-hover-color);
+}

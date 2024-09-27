@@ -1,0 +1,17 @@
+﻿:root {
+    --background-color: #09083a;
+    --hover-background-color: #2c2a5f;
+    --text-color: white;
+    --link-color: #ec1313;
+    --button-background-color: #3402a7;
+    --button-hover-color: #602dd6;
+    --button-text-color: white;
+    --form-background-color: rgba(242, 242, 242, 0.8);
+    --label-color: #233ED9;
+    --input-text-color: #261109;
+    --input-focus-border-color: #0424D9;
+    --error-message-color: #D90416;
+    --success-message-color: #233ED9;
+    --submit-button-color: #28a745;
+    --back-button-color: #6c757d;
+}
