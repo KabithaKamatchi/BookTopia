@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>ViewBooks</title>
-    <link rel="stylesheet" type="text/css" href="../Assets/Css/Themes/themes.css">
+     <link rel="stylesheet" type="text/css" href="../Assets/Css/Themes/themes.css">
     <link rel="stylesheet" type="text/css" href="../Assets/Css/Core/ViewBooks.css">
 </head>
 <body>
@@ -37,8 +37,7 @@
             <div class="back-button">
                 <asp:Button ID="Button1" runat="server" Text="&#8249; HomePage" OnClick="btnHome_Click" />
             </div>
-
-        </div>
+        </div>  
     </form>
 </body>
 </html>

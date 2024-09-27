@@ -150,6 +150,7 @@ namespace BookTopia.BookTopia
         protected global::System.Web.UI.WebControls.Button btnBack;
 
         /// <summary>
+
         /// lblSuccessMessage control.
         /// </summary>
         /// <remarks>
